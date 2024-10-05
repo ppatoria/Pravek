@@ -237,14 +237,14 @@ Therefore, the value of x is **8**.
 **Solution:**
 Let's calculate the **median** and **mode** for the given data set:
 
-Data:  
+Data:
 23, 45, 46, 12, 34, 87, 78, 12, 65, 33, 19, 34, 55, 67, 81, 12, 56, 98, 11, 49, 50
 
-### Step 1: Arrange the data in ascending order
+**Step 1: Arrange the data in ascending order**
 
 11, 12, 12, 12, 19, 23, 33, 34, 34, 45, 46, 49, 50, 55, 56, 65, 67, 78, 81, 87, 98
 
-### Median Calculation:
+**Median Calculation:**
 
 To find the **median**, we need to determine the middle value in this ordered data.
 
@@ -255,7 +255,7 @@ So, the 11th value in the ordered list is **46**.
 
 Thus, the **median** is **46**.
 
-### Mode Calculation:
+**Mode Calculation:**
 
 The **mode** is the number that appears most frequently in the data set.
 
@@ -267,7 +267,7 @@ The most frequent value is **12**.
 
 Thus, the **mode** is **12**. 
 
-### Final Answer:
+**Final Answer:**
 - **Median** = 46
 - **Mode** = 12
 
@@ -307,34 +307,34 @@ y-1, y-1, y+1, y+4, 2y+1, 3y, 4y
 
 Let's break this down step by step.
 
-### Given Data in Ascending Order:
+Given Data in Ascending Order:
 [ y-1,  y-1,  y+1,  y+4,  2y+1,  3y,  4y ]
 
 We are asked to find the value of \( y \), given that the sum of the mode and the median is 15.
 
 ---
 
-### Step 1: Find the Mode
+**Step 1: Find the Mode**
 - The **mode** is the value that appears most frequently in the data set.
 - In the given data, ( y-1 ) appears twice, while all other values appear only once.
 - So, the mode is ( y-1 ).
 
 ---
 
-### Step 2: Find the Median
+**Step 2: Find the Median**
 - The **median** is the middle value in an ordered data set.
 - Since there are 7 numbers, the median will be the 4th number in the ordered set.
-  
+
 So, the median is ( y+4 ).
 
 ---
 
-### Step 3: Equation Setup
+**Step 3: Equation Setup**
 We are told that the sum of the mode and the median is 15. So, we can set up the equation as:
 Mode + Median = 15
 (y-1) + (y+4) = 15
 
-### Step 4: Solve for \( y \)
+Step 4: Solve for \( y \)
 Simplify the equation:
 2y + 3 = 15
 Subtract 3 from both sides:
@@ -344,7 +344,7 @@ y = 6
 
 ---
 
-### Final Answer:
+**Final Answer:**
 The value of ( y ) is **6**.
 
 ### Q.19
