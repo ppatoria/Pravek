@@ -364,7 +364,7 @@ Let’s break this down in steps using the diagram and the concept of exterior a
 
 **Given:**
 - triangle QPR  is a right-angled triangle.
-- angle QPR = 70  (given***.
+- angle QPR = 70  (given).
 - angle QRP = 90  because  PR perpendicular to  RS .
 
 ---
