@@ -125,7 +125,7 @@
    Therefore, the number of acute angles is *3*.
 
 * Q.11
-[[./maths11.png]]
+[[../maths11.png]]
 
 In the given image, we have a right triangle with one of the angles labeled as 125∘  (an exterior angle**, another angle as x, and a right angle 90∘ inside the triangle.
 
