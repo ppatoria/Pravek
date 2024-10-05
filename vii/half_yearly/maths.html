@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-10-05 Sat 20:05 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<div id="outline-container-org6997987" class="outline-2">
+<h2 id="org6997987">Question Paper</h2>
+<div class="outline-text-2" id="text-org6997987">
+</div>
+<div id="outline-container-orgcfdfbd5" class="outline-3">
+<h3 id="orgcfdfbd5">Delhi Public School</h3>
+</div>
+<div id="outline-container-org84e92b3" class="outline-3">
+<h3 id="org84e92b3">Gurugram I Sector 67A</h3>
+</div>
+
+<div id="outline-container-org0548114" class="outline-3">
+<h3 id="org0548114">HALF YEARLY ASSESSMENT</h3>
+</div>
+<div id="outline-container-org4b90da8" class="outline-3">
+<h3 id="org4b90da8">SESSION: 2024-25</h3>
+</div>
+
+<div id="outline-container-org5c63537" class="outline-3">
+<h3 id="org5c63537">NAME:</h3>
+</div>
+<div id="outline-container-org79abc35" class="outline-3">
+<h3 id="org79abc35">CLASS: VII</h3>
+</div>
+<div id="outline-container-orgc277cf8" class="outline-3">
+<h3 id="orgc277cf8">ROLL NO:</h3>
+</div>
+
+<div id="outline-container-org38da0fc" class="outline-3">
+<h3 id="org38da0fc">DATE: 17th September, 2024</h3>
+</div>
+<div id="outline-container-orgc165cdb" class="outline-3">
+<h3 id="orgc165cdb">SUBJECT: Mathematics</h3>
+</div>
+<div id="outline-container-org7cc654e" class="outline-3">
+<h3 id="org7cc654e">M.M: 80</h3>
+</div>
+<div id="outline-container-orgb9fccd5" class="outline-3">
+<h3 id="orgb9fccd5">DURATION: 3 hrs</h3>
+</div>
+
+<div id="outline-container-orgfd08a8d" class="outline-3">
+<h3 id="orgfd08a8d">INSTRUCTIONS:</h3>
+<div class="outline-text-3" id="text-orgfd08a8d">
+<ul class="org-ul">
+<li>Read the question paper carefully.</li>
+<li>All the questions are mandatory.</li>
+<li>This question paper consists of 33 questions and 5 printed pages.</li>
+<li>Number your answers correctly according to the questions.</li>
+<li>Do not write any information on the question paper.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org327d3bc" class="outline-2">
+<h2 id="org327d3bc">Section A (10 Marks)</h2>
+<div class="outline-text-2" id="text-org327d3bc">
+</div>
+<div id="outline-container-org18258bd" class="outline-3">
+<h3 id="org18258bd">Q.1</h3>
+<div class="outline-text-3" id="text-org18258bd">
+<p>
+The value of 1.3 × 3.1 is
+</p>
+<ul class="org-ul">
+<li>a. 4.03</li>
+<li>b. 0.403</li>
+<li>c. 4.0339</li>
+<li>d. 0.0403</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4d10337" class="outline-3">
+<h3 id="org4d10337">Q.2</h3>
+<div class="outline-text-3" id="text-org4d10337">
+<p>
+The number of angles formed, when two lines intersect, is
+</p>
+<ul class="org-ul">
+<li>a. 5</li>
+<li>b. 4</li>
+<li>c. 2</li>
+<li>d. 6</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6c2b08b" class="outline-3">
+<h3 id="org6c2b08b">Q.3</h3>
+<div class="outline-text-3" id="text-org6c2b08b">
+<p>
+What is the product of the largest and the smallest fraction from the following list?
+</p>
+
+<p>
+9/11
+3/11
+7/11
+5/11
+10/11
+6/11
+Options:
+</p>
+
+<ul class="org-ul">
+<li>a. 18/121</li>
+<li>b. 30/121</li>
+<li>c. 35/121</li>
+<li>d. 90/121</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org27bfbfd" class="outline-3">
+<h3 id="org27bfbfd">Q.4</h3>
+<div class="outline-text-3" id="text-org27bfbfd">
+<p>
+The solution of the equation \(3x+4=25\) is
+</p>
+<ul class="org-ul">
+<li>a. 7</li>
+<li>b. 8</li>
+<li>c. 9</li>
+<li>d. 6</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6018f0b" class="outline-3">
+<h3 id="org6018f0b">Q.5</h3>
+<div class="outline-text-3" id="text-org6018f0b">
+<p>
+Find the fraction of 3 km to 300 m.
+Options:
+</p>
+<ul class="org-ul">
+<li>a. 1/100</li>
+<li>b. 10/1</li>
+<li>c. 1/10</li>
+<li>d. 100/1</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9c32b2f" class="outline-3">
+<h3 id="org9c32b2f">Q.6</h3>
+<div class="outline-text-3" id="text-org9c32b2f">
+<p>
+\(-5+9+(-5)+(-10)+(7)\) is equal to
+</p>
+<ul class="org-ul">
+<li>a. 13</li>
+<li>b. -13</li>
+<li>c. 10</li>
+<li>d. -10</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org2492cf5" class="outline-3">
+<h3 id="org2492cf5">Q.7</h3>
+<div class="outline-text-3" id="text-org2492cf5">
+<p>
+In the adjoining figure, if AB = PQ and BC = CQ, then find the measure of angle CPQ.
+<img src="./maths7.png" alt="maths7.png" />
+</p>
+<ul class="org-ul">
+<li>a. 30°</li>
+<li>b. 90°</li>
+<li>c. 80°</li>
+<li>d. 60°</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9212381" class="outline-3">
+<h3 id="org9212381">Q.8</h3>
+<div class="outline-text-3" id="text-org9212381">
+<p>
+Mean of 11, 10, 12, 12, 9, 10, 14, 12, 9 is
+</p>
+<ul class="org-ul">
+<li>a. 20</li>
+<li>b. 10</li>
+<li>c. 14</li>
+<li>d. 11</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5b4af66" class="outline-3">
+<h3 id="org5b4af66">Q.9</h3>
+<div class="outline-text-3" id="text-org5b4af66">
+<p>
+An expression remains the same, when the expressions on the left and on the right are interchanged.
+</p>
+<ul class="org-ul">
+<li>a. Expression</li>
+<li>b. Equation</li>
+<li>c. Variable</li>
+<li>d. Constant</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc96a5c0" class="outline-3">
+<h3 id="orgc96a5c0">Q.10</h3>
+<div class="outline-text-3" id="text-orgc96a5c0">
+<p>
+Number of acute angles in the following figure is
+</p>
+<ul class="org-ul">
+<li>a. 3</li>
+<li>b. 1</li>
+<li>c. 4</li>
+<li>d. 2</li>
+</ul>
+
+<div id="orgec758d2" class="figure">
+<p><img src="./maths10.png" alt="maths10.png" />
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org5841ca7" class="outline-2">
+<h2 id="org5841ca7">Section B (12 Marks)</h2>
+<div class="outline-text-2" id="text-org5841ca7">
+</div>
+<div id="outline-container-org1ed06aa" class="outline-3">
+<h3 id="org1ed06aa">Q.11</h3>
+<div class="outline-text-3" id="text-org1ed06aa">
+<p>
+Find the value of x in the adjacent figure and state the property that is used to find the value.
+</p>
+<ul class="org-ul">
+<li>a. 30°</li>
+<li>b. 60°</li>
+<li>c. 45°</li>
+<li>d. 50°</li>
+</ul>
+
+<div id="orga4207f5" class="figure">
+<p><img src="./maths11.png" alt="maths11.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org80cf677" class="outline-3">
+<h3 id="org80cf677">Q.12</h3>
+<div class="outline-text-3" id="text-org80cf677">
+<p>
+If 28 trousers of equal size can be made from 63 m of cloth, what length of cloth is required for one trouser?
+</p>
+</div>
+</div>
+<div id="outline-container-org0943571" class="outline-3">
+<h3 id="org0943571">Q.13</h3>
+<div class="outline-text-3" id="text-org0943571">
+<p>
+Calculate the mean of the first five prime numbers.
+</p>
+</div>
+</div>
+<div id="outline-container-org7e161a1" class="outline-3">
+<h3 id="org7e161a1">Q.14</h3>
+<div class="outline-text-3" id="text-org7e161a1">
+<p>
+If 2x-1=x+2, then what is the value of x?
+</p>
+</div>
+</div>
+<div id="outline-container-org7a91e60" class="outline-3">
+<h3 id="org7a91e60">Q.15</h3>
+<div class="outline-text-3" id="text-org7a91e60">
+<p>
+Calculate median and mode for the following data:
+38, 45, 46, 12, 34, 87, 78, 12, 65, 35, 19, 34, 55, 67, 81, 12, 56, 98, 1, 49, 23, 50
+</p>
+</div>
+</div>
+<div id="outline-container-orgdb22e15" class="outline-3">
+<h3 id="orgdb22e15">Q.16</h3>
+<div class="outline-text-3" id="text-orgdb22e15">
+<p>
+Raju owns a plot which is 1 acre in size. If the value of land in his area is ₹48,000 per acre, what is the value of his plot?
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org012b313" class="outline-2">
+<h2 id="org012b313">Section C (30 Marks)</h2>
+<div class="outline-text-2" id="text-org012b313">
+</div>
+<div id="outline-container-org4086354" class="outline-3">
+<h3 id="org4086354">Q.17</h3>
+<div class="outline-text-3" id="text-org4086354">
+<p>
+In a family, the consumption of wheat is 4 times that of rice. The total consumption of the two cereals is 80 kg. Find the quantities of rice and wheat consumed in the family.
+</p>
+</div>
+</div>
+<div id="outline-container-orgccb4f97" class="outline-3">
+<h3 id="orgccb4f97">Q.18</h3>
+<div class="outline-text-3" id="text-orgccb4f97">
+<p>
+The given data is arranged in ascending order. The sum of mode and median of the given data is 15. Find the value of y.
+\(y-1, y-1, y+1, y+4, 2y+1, 3y, 4y\)
+</p>
+</div>
+</div>
+<div id="outline-container-org7f80e50" class="outline-3">
+<h3 id="org7f80e50">Q.19</h3>
+<div class="outline-text-3" id="text-org7f80e50">
+<p>
+In the given adjacent figure, △QPR is a right-angled triangle with angle QPR = 70°.
+</p>
+<ul class="org-ul">
+<li>i) Find the value of y</li>
+<li>ii) Find the value of x</li>
+<li>iii) Find the value of z</li>
+</ul>
+
+<div id="orgee5c17f" class="figure">
+<p><img src="./maths19.png" alt="maths19.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orged023f0" class="outline-3">
+<h3 id="orged023f0">Q.20</h3>
+<div class="outline-text-3" id="text-orged023f0">
+<p>
+A square and an equilateral triangle have a side in common. If the side of the triangle is 4/3 cm long, find the perimeter of the adjacent figure.
+<img src="./maths20.png" alt="maths20.png" />
+</p>
+</div>
+</div>
+<div id="outline-container-orgf17022b" class="outline-3">
+<h3 id="orgf17022b">Q.21</h3>
+<div class="outline-text-3" id="text-orgf17022b">
+<p>
+In the given adjacent figure, EV, FK, and GS are the medians of the triangle EFG. Find the value of:
+</p>
+<ul class="org-ul">
+<li>i) FS</li>
+<li>ii) KG</li>
+<li>iii) FV</li>
+</ul>
+
+<div id="org107fbef" class="figure">
+<p><img src="./maths21.png" alt="maths21.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org5ccbaa6" class="outline-3">
+<h3 id="org5ccbaa6">Q.22</h3>
+<div class="outline-text-3" id="text-org5ccbaa6">
+<p>
+A shopkeeper earns a profit of ₹1 by selling one pen and incurs a loss of 40 paise per pencil while selling pencils of her old stock. In a particular month, she incurs a loss of ₹5. In this period, she sold 45 pens. How many pencils did she sell in this period?
+</p>
+</div>
+</div>
+<div id="outline-container-orgbf0321e" class="outline-3">
+<h3 id="orgbf0321e">Q.23</h3>
+<div class="outline-text-3" id="text-orgbf0321e">
+<p>
+A car covers a distance of 89.1 km in 2.2 hours. What is the average distance covered by it in 1 hour?
+</p>
+</div>
+</div>
+<div id="outline-container-orga4dd11a" class="outline-3">
+<h3 id="orga4dd11a">Q.24</h3>
+<div class="outline-text-3" id="text-orga4dd11a">
+<p>
+"5 added to three-fifth of a number gives 14/3".
+</p>
+<ul class="org-ul">
+<li>i) Write the equation for the above statement.</li>
+<li>ii) Solve the equation and find the number.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org24133c3" class="outline-3">
+<h3 id="org24133c3">Q.25</h3>
+<div class="outline-text-3" id="text-org24133c3">
+<p>
+In a class test containing 15 questions, 4 marks are given for every correct answer and (-2) marks are given for every incorrect answer.
+</p>
+<ul class="org-ul">
+<li>i) Gurpreet attempts all questions but only 9 of her answers are correct. What is her total score?</li>
+<li>ii) One of her friends attempted all questions and got only 5 answers correct. What will be her score?</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org22e4e0f" class="outline-3">
+<h3 id="org22e4e0f">Q.26</h3>
+<div class="outline-text-3" id="text-org22e4e0f">
+<p>
+If RO is perpendicular to PT in the adjacent figure, find the measure of angle 1 and angle 2.
+<img src="./maths26.png" alt="maths26.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbe3446e" class="outline-2">
+<h2 id="orgbe3446e">Section D (28 Marks)</h2>
+<div class="outline-text-2" id="text-orgbe3446e">
+</div>
+<div id="outline-container-org1060fd1" class="outline-3">
+<h3 id="org1060fd1">Q.27</h3>
+<div class="outline-text-3" id="text-org1060fd1">
+<p>
+Simplify and reduce to standard form:
+<img src="./maths27.png" alt="maths27.png" />
+</p>
+</div>
+</div>
+<div id="outline-container-orgbd2db7f" class="outline-3">
+<h3 id="orgbd2db7f">Q.28</h3>
+<div class="outline-text-3" id="text-orgbd2db7f">
+<p>
+The data given below shows the production of motor bikes in a factory for some months of two consecutive years.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Months</th>
+<th scope="col" class="org-right">2023</th>
+<th scope="col" class="org-right">2024</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">February</td>
+<td class="org-right">2700</td>
+<td class="org-right">2800</td>
+</tr>
+
+<tr>
+<td class="org-left">May</td>
+<td class="org-right">3200</td>
+<td class="org-right">4500</td>
+</tr>
+
+<tr>
+<td class="org-left">August</td>
+<td class="org-right">6000</td>
+<td class="org-right">4800</td>
+</tr>
+
+<tr>
+<td class="org-left">October</td>
+<td class="org-right">5000</td>
+<td class="org-right">4800</td>
+</tr>
+
+<tr>
+<td class="org-left">December</td>
+<td class="org-right">4200</td>
+<td class="org-right">5200</td>
+</tr>
+</tbody>
+</table>
+
+<ul class="org-ul">
+<li>i) Draw a double bar graph using appropriate scale to depict the above information.</li>
+<li>ii) In which year was the total output the maximum?</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfa5652f" class="outline-3">
+<h3 id="orgfa5652f">Q.29</h3>
+<div class="outline-text-3" id="text-orgfa5652f">
+<p>
+The foot of a ladder is 6 m away from a wall, and its top reaches 8 m above the ground.
+</p>
+<ul class="org-ul">
+<li>i) Find the length of the ladder.</li>
+<li>ii) If the ladder is shifted in such a way that its foot is 8 m away from the wall, to what height does its top reach?</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8fc8273" class="outline-3">
+<h3 id="org8fc8273">Q.30</h3>
+<div class="outline-text-3" id="text-org8fc8273">
+<ul class="org-ul">
+<li>i) Raju's father's age is 5 years more than three times Raju's age. Find Raju's age, if his father is 44 years old.</li>
+<li>ii) Find a number, such that one-fourth of the number is 3 more than 7.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd5e4012" class="outline-3">
+<h3 id="orgd5e4012">Q.31</h3>
+<div class="outline-text-3" id="text-orgd5e4012">
+<p>
+There are four containers that are arranged in the ascending order of their heights. If the height of the smallest container given in the below figure is expressed as x = 10.5 cm, find the height of the largest container (x).
+<img src="./maths31.png" alt="maths31.png" />
+</p>
+</div>
+</div>
+<div id="outline-container-org570c8ea" class="outline-3">
+<h3 id="org570c8ea">Q.32</h3>
+<div class="outline-text-3" id="text-org570c8ea">
+<p>
+Find the value of x in the adjacent figure.
+<img src="./maths32.png" alt="maths32.png" />
+</p>
+</div>
+</div>
+<div id="outline-container-org6744e17" class="outline-3">
+<h3 id="org6744e17">Q.33</h3>
+<div class="outline-text-3" id="text-org6744e17">
+<p>
+A tree is broken at a height of 5 m from the ground, and its top touches the ground at a distance of 12 m from the base of the tree. Find the original height of the tree.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2024-10-05 Sat 20:05</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
