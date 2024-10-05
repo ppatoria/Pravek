@@ -240,9 +240,12 @@ Let's calculate the **median** and **mode** for the given data set:
 Data:
 23, 45, 46, 12, 34, 87, 78, 12, 65, 33, 19, 34, 55, 67, 81, 12, 56, 98, 11, 49, 50
 
+---
 **Step 1: Arrange the data in ascending order**
 
 11, 12, 12, 12, 19, 23, 33, 34, 34, 45, 46, 49, 50, 55, 56, 65, 67, 78, 81, 87, 98
+
+---
 
 **Median Calculation:**
 
@@ -255,6 +258,8 @@ So, the 11th value in the ordered list is **46**.
 
 Thus, the **median** is **46**.
 
+---
+
 **Mode Calculation:**
 
 The **mode** is the number that appears most frequently in the data set.
@@ -266,6 +271,8 @@ In the ordered list:
 The most frequent value is **12**.
 
 Thus, the **mode** is **12**. 
+
+---
 
 **Final Answer:**
 - **Median** = 46
