@@ -154,7 +154,7 @@ The value of **𝑥=35∘**, and the property used is the exterior angle propert
 The **exterior angle** of a triangle is formed when one side of the triangle is extended.
 The angle formed outside the triangle, adjacent to the vertex of the triangle, is the exterior angle.
 
-[[./exterior_angle.png]]
+[[./exterior-angle.png]]
 
 #+begin_example
 We can verify the exterior angle theorem with the known properties of a triangle. Consider a Δ ABC.
