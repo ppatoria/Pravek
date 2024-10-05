@@ -24,7 +24,7 @@ Therefore, the number of angles formed is **4**.
 * So, the largest fraction is \(\frac{10}{11}\) and the smallest fraction is \(\frac{3}{11}\).
 * Now, multiply the two fractions: \(\frac{10}{11} \times \frac{3}{11} = \frac{10 \times 3}{11 \times 11} = \frac{30}{121}\).
 
-Therefore, the product of the largest and the smallest fraction is **\(\frac{30}{121}\)**.
+Therefore, the product of the largest and the smallest fraction is 30/121.
 
 ### Q.4
 **Question:** The solution of the equation \(3x+4=25\) is
@@ -32,7 +32,7 @@ Therefore, the product of the largest and the smallest fraction is **\(\frac{30}
 * To solve the equation, we need to isolate the variable, x.
 * Subtract 4 from both sides of the equation: \(3x+4-4=25-4\)
 * This simplifies to \(3x=21\).
-* Divide both sides by 3: \(\frac{3x}{3}=\frac{21}{3}\)
+* Divide both sides by 3: (3x/3=21/3)
 * This simplifies to \(x=7\).
 
 Therefore, the solution of the equation is **7**.
@@ -41,13 +41,13 @@ Therefore, the solution of the equation is **7**.
 **Question:** Find the fraction of 3 km to 300 m.
 **Solution:**
 * First, convert both measurements to the same unit. Since 1 km is equal to 1000 m, 3 km is equal to 3000 m.
-* Now, write the fraction: \(\frac{3000}{300}\)
+* Now, write the fraction: 3000\300
 * Simplify the fraction by dividing both the numerator and denominator by their greatest common divisor, which is 300: \(\frac{3000 \div 300}{300 \div 300} = \frac{10}{1}\)
 
-Therefore, the fraction of 3 km to 300 m is **\(\frac{10}{1}\)** or simply **10**.
+Therefore, the fraction of 3 km to 300 m is **10\1** or simply **10**.
 
 ### Q.6
-**Question:** \(-5+9+(-5)+(-10)+(7)\) is equal to
+**Question:** -5+9+(-5)+(-10)+(7) is equal to
 **Solution:**
 * Combine the numbers:
   * \(-5+9=4\)
