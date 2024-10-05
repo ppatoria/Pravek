@@ -360,6 +360,75 @@ The value of ( y ) is **6**.
 * ii) Find the value of x
 * iii) Find the value of z
 **Solution:**
+Let’s break this down in steps using the diagram and the concept of exterior and interior angles.
+
+**Given:**
+- triangle QPR  is a right-angled triangle.
+- angle QPR = 70  (given***.
+- angle QRP = 90  because  PR perpendicular to  RS .
+
+---
+
+**Step 1: Find ( y )**
+In triangle QPR , the sum of the interior angles must be  180 . Since angle QRP = 90  and angle QPR = 70 , the third angle  y  is:
+
+angle PQR = 180 - (90 + 70) = 180 - 160 = 20
+
+So,  y = 20 .
+
+---
+
+**Step 2: Find ( x ) (Exterior Angle)**
+ angle x  is the exterior angle at vertex  T , adjacent to  triangle QRT .
+ According to the **Exterior Angle Theorem***, the exterior angle is equal to the sum of the two non-adjacent interior angles of the triangle.
+
+Here:
+- angle QRP = 90  (from  PR perpendicular to RS ).
+- angle QPR = 70  (given).
+
+So, the exterior angle ( x ) is:
+x = 90 + 70 = 160
+
+Thus, x = 160 .
+
+---
+
+**Step 3: Find ( z )**
+
+Finally, z is an angle on a straight line with x (i.e., z and x form a linear pair, summing to 180 ).
+
+Therefore, to find z , we subtract x from 180:
+z = 180 - x = 180 - 160 = 20
+
+Thus, z = 20 .
+
+### Final Values:
+-  y = 20
+-  x = 160
+-  z = 20
+
+Everything is consistent and follows from the Exterior Angle Theorem and basic properties of angles in triangles.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * **i) Angle QPR = 70°**, so angle PQR = 90° - 70° = 20° (since it's a right-angled triangle).
 * **ii) Angle QPR = 20°**, so angle PRQ = 180° - 70° - 20° = 90° (sum of angles in a triangle is 180°).
 * **iii) Angle PRQ = 90°**, so triangle PQR is a right-angled triangle. Therefore, x = PR = PQ = y (since it's an isosceles right-angled triangle).
