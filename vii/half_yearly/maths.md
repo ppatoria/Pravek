@@ -130,10 +130,10 @@ If (2x-1)/3=(x+2)/2, then what is the value of x?
 
 **Q.15**
 Calculate median and mode for the following data:
-38, 45, 46, 12, 34, 87, 78, 12, 65, 35, 19, 34, 55, 67, 81, 12, 56, 98, 1, 49, 23, 50
+23, 45, 46, 12, 34, 87, 78, 12, 65, 33, 19, 34, 55, 67, 81, 12, 56, 98, 11, 49, 50
 
 **Q.16**
-Raju owns a plot which is 1 acre in size. If the value of land in his area is ₹48,000 per acre, what is the value of his plot?
+Raju owns a plot which is 1 1/3 acre in size. If the value of land in his area is ₹48,000 per acre, what is the value of his plot?
 
 ## Section C (30 Marks)
 

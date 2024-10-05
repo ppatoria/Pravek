@@ -197,12 +197,12 @@ Therefore, the mean of the first five prime numbers is **5.6**.
 **Solution:**
 To solve the equation:
 ```
-(2x - 1)/3 = (x + 2)/2
+(2x - 1) / 3 = (x + 2) / 2
 ```
 **Step 1: Eliminate the denominators by multiplying both sides by 6**  (the least common multiple of 3 and 2):
 
 ```
-6 * (2x - 1)/3 = 6 *  (x + 2)/2
+6 * [(2x - 1) / 3] = 6 *  [(x + 2) / 2]
 ```
 
 This simplifies to:
@@ -231,32 +231,61 @@ x = 8
 
 Therefore, the value of x is **8**.
 
-**Question:** If 2x-1=x+2, then what is the value of x?
-**Solution:**
-* To solve the equation, isolate the variable x.
-* Subtract x from both sides: 2x - 1 - x = x + 2 - x
-* Simplify: x - 1 = 2
-* Add 1 to both sides: x - 1 + 1 = 2 + 1
-* Simplify: x = 3
-
-Therefore, the value of x is **3**.
-
 ### Q.15
 **Question:** Calculate median and mode for the following data:
-38, 45, 46, 12, 34, 87, 78, 12, 65, 35, 19, 34, 55, 67, 81, 12, 56, 98, 1, 49, 23, 50
+23, 45, 46, 12, 34, 87, 78, 12, 65, 33, 19, 34, 55, 67, 81, 12, 56, 98, 11, 49, 50
 **Solution:**
-* **Median:** Arrange the data in ascending order: 1, 12, 12, 12, 19, 23, 34, 34, 35, 38, 45, 46, 49, 50, 55, 56, 65, 67, 78, 81, 87, 98
-* Since there are 22 numbers, the median is the average of the 11th and 12th terms: (45 + 46) / 2 = 45.5
-* **Mode:** The mode is the number that appears most frequently. In this data, 12 appears three times, which is more than any other number.
+Let's calculate the **median** and **mode** for the given data set:
 
-Therefore, the median is **45.5** and the mode is **12**.
+Data:  
+23, 45, 46, 12, 34, 87, 78, 12, 65, 33, 19, 34, 55, 67, 81, 12, 56, 98, 11, 49, 50
+
+### Step 1: Arrange the data in ascending order
+
+11, 12, 12, 12, 19, 23, 33, 34, 34, 45, 46, 49, 50, 55, 56, 65, 67, 78, 81, 87, 98
+
+### Median Calculation:
+
+To find the **median**, we need to determine the middle value in this ordered data.
+
+- The total number of observations is 21 (an odd number).
+- The middle value is the \((21+1)/2 = 11\)th value.
+
+So, the 11th value in the ordered list is **46**.
+
+Thus, the **median** is **46**.
+
+### Mode Calculation:
+
+The **mode** is the number that appears most frequently in the data set.
+
+In the ordered list:
+- 12 appears **3 times**.
+- 34 appears **2 times**.
+
+The most frequent value is **12**.
+
+Thus, the **mode** is **12**. 
+
+### Final Answer:
+- **Median** = 46
+- **Mode** = 12
 
 ### Q.16
-**Question:** Raju owns a plot which is 1 acre in size. If the value of land in his area is ₹48,000 per acre, what is the value of his plot?
+**Question:** Raju owns a plot which is 1 1/3 acre in size. If the value of land in his area is ₹48,000 per acre, what is the value of his plot?
 **Solution:**
-* Multiply the size of the plot by the value per acre: 1 acre × ₹48,000/acre = ₹48,000
+To calculate the value of Raju's plot, you can follow these steps:
 
-Therefore, the value of Raju's plot is **₹48,000**.
+1. **Convert 1 1/3 acres to a decimal:**
+   - 1 1/3 acres = 1 + 1/3 = 1.3333 acres.
+
+2. **Multiply the plot size by the value per acre:**
+   Value of the plot = 1.3333 acres * 48,000₹/acre
+   Value of the plot= 64,000 ₹
+
+So, the value of Raju's plot is ₹64,000.
+
+
 
 ### Q.17
 **Question:** In a family, the consumption of wheat is 4 times that of rice. The total consumption of the two cereals is 80 kg. Find the quantities of rice and wheat consumed in the family.
@@ -273,16 +302,50 @@ Therefore, the family consumed **16 kg of rice** and **64 kg of wheat**.
 
 ### Q.18
 **Question:** The given data is arranged in ascending order. The sum of mode and median of the given data is 15. Find the value of y.
-\(y-1, y-1, y+1, y+4, 2y+1, 3y, 4y\)
+y-1, y-1, y+1, y+4, 2y+1, 3y, 4y
 **Solution:**
-* **Median:** Since there are 7 terms, the median is the middle term, which is \(y+1\).
-* **Mode:** The mode is the value that appears most frequently. In this case, \(y-1\) appears twice, more than any other value.
-* **Equation:** Median + Mode = 15
-* Substitute the values: \(y+1 + (y-1) = 15\)
-* Simplify: \(2y = 15\)
-* Divide by 2: \(y = 7.5\)
 
-Therefore, the value of y is **7.5**.
+Let's break this down step by step.
+
+### Given Data in Ascending Order:
+[ y-1,  y-1,  y+1,  y+4,  2y+1,  3y,  4y ]
+
+We are asked to find the value of \( y \), given that the sum of the mode and the median is 15.
+
+---
+
+### Step 1: Find the Mode
+- The **mode** is the value that appears most frequently in the data set.
+- In the given data, ( y-1 ) appears twice, while all other values appear only once.
+- So, the mode is ( y-1 ).
+
+---
+
+### Step 2: Find the Median
+- The **median** is the middle value in an ordered data set.
+- Since there are 7 numbers, the median will be the 4th number in the ordered set.
+  
+So, the median is ( y+4 ).
+
+---
+
+### Step 3: Equation Setup
+We are told that the sum of the mode and the median is 15. So, we can set up the equation as:
+Mode + Median = 15
+(y-1) + (y+4) = 15
+
+### Step 4: Solve for \( y \)
+Simplify the equation:
+2y + 3 = 15
+Subtract 3 from both sides:
+2y = 12
+Divide by 2:
+y = 6
+
+---
+
+### Final Answer:
+The value of ( y ) is **6**.
 
 ### Q.19
 **Question:** In the given adjacent figure, △QPR is a right-angled triangle with angle QPR = 70°.
