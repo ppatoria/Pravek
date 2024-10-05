@@ -124,35 +124,56 @@ Therefore, the number of acute angles is **3**.
 
 ![Figure 11](./maths11.png)
 
-### Given Figure
-In the given image, we have a right triangle with:
-- One of the angles labeled as \(125^\circ\) (an exterior angle)
-- Another angle as \(x\)
-- A right angle (\(90^\circ\)) inside the triangle.
+In the given image, we have a right triangle with one of the angles labeled as 125∘  (an exterior angle**, another angle as x, and a right angle 90∘ inside the triangle.
 
-### Step 1: Use the Exterior Angle Property
-The **exterior angle property** of a triangle states that the exterior angle is equal to the sum of the two non-adjacent interior angles. In this case, the exterior angle is \(125^\circ\) and the two non-adjacent interior angles are \(x\) and \(90^\circ\).
+**Step 1: Use the Exterior Angle Property***
+The exterior angle property of a triangle states that the exterior angle is equal to the sum of the two non-adjacent interior angles. In this case, the exterior angle is
+125∘  and the two non-adjacent interior angles are x and 90∘ .
+Thus, using the exterior angle property: 
+```
+125∘ = x + 90∘
+```
 
-Thus, using the exterior angle property:
+**Step 2: Solve for x**
+```
+𝑥=125∘−90∘
+𝑥=35∘
+```
 
-\[
-125^\circ = x + 90^\circ
-\]
+**Step 3: State the Property Used**
+The property used is the exterior angle property of a triangle, which states that the exterior angle is equal to the sum of the two non-adjacent interior angles.
 
-### Step 2: Solve for \(x\)
+**Final Answer**
+The value of **𝑥=35∘**, and the property used is the exterior angle property.
 
-\[
-x = 125^\circ - 90^\circ
-\]
-\[
-x = 35^\circ
-\]
+#### exterior angle property.
+**Definition** :
+The **exterior angle** of a triangle is formed when one side of the triangle is extended.
+The angle formed outside the triangle, adjacent to the vertex of the triangle, is the exterior angle.
 
-### Step 3: State the Property Used
-The property used is the **exterior angle property** of a triangle, which states that the exterior angle is equal to the sum of the two non-adjacent interior angles.
+For any triangle, the exterior angle is equal to the sum of the two **non-adjacent interior angles** (the angles that are not adjacent to the exterior angle).
 
-### Final Answer
-The value of \(x = 35^\circ\), and the property used is the **exterior angle property**.
+![Exterior Angle](./exterior_angle.png)
+
+```
+We can verify the exterior angle theorem with the known properties of a triangle. Consider a Δ ABC.
+
+The three angles a + b + c = 180 (angle sum property of a triangle) ----- Equation 1
+
+c= 180 - (a+b) ----- Equation 2 (rewriting equation 1)
+
+e = 180 - c----- Equation 3 (linear pair of angles)
+
+Substituting the value of c in equation 3, we get
+
+e = 180 - [180 - (a + b)]
+
+e = 180 - 180 + (a + b)
+
+e = a + b
+
+Hence verified.
+```
 
 ### Q.12
 **Question:** If 28 trousers of equal size can be made from 63 m of cloth, what length of cloth is required for one trouser?
