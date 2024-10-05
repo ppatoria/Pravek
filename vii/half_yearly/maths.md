@@ -216,10 +216,12 @@ The foot of a ladder is 6 m away from a wall, and its top reaches 8 m above the 
 * ii) Find a number, such that one-fourth of the number is 3 more than 7.
 
 **Q.31**
+![Figure 31](./maths31.png)
 There are four containers that are arranged in the ascending order of their heights. If the height of the smallest container given in the below figure is expressed as x = 10.5 cm, find the height of the largest container (x).
 [Image of four containers arranged in ascending order of height]
 
 **Q.32**
+![Figure 32](./maths32.png)
 Find the value of x in the adjacent figure.
 [Image of a triangle with sides 3x, 2x+10, and x]
 
