@@ -193,6 +193,44 @@ Therefore, the length of cloth required for one trouser is **2.25 meters**.
 Therefore, the mean of the first five prime numbers is **5.6**.
 
 ### Q.14
+**Question:** If (2x-1)/3=(x+2)/2, then what is the value of x?
+**Solution:**
+To solve the equation:
+```
+(2x - 1)/3 = (x + 2)/2
+```
+**Step 1: Eliminate the denominators by multiplying both sides by 6**  (the least common multiple of 3 and 2):
+
+```
+6 * (2x - 1)/3 = 6 *  (x + 2)/2
+```
+
+This simplifies to:
+
+```
+2(2x - 1) = 3(x + 2)
+```
+
+**Step 2: Expand both sides**:
+
+```
+4x - 2 = 3x + 6
+```
+
+**Step 3: Bring all the terms with \(x\) on one side and constants on the other side**:
+
+```
+4x - 3x = 6 + 2
+```
+
+This simplifies to:
+
+```
+x = 8
+```
+
+Therefore, the value of x is **8**.
+
 **Question:** If 2x-1=x+2, then what is the value of x?
 **Solution:**
 * To solve the equation, isolate the variable x.

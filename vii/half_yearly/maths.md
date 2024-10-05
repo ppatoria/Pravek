@@ -126,7 +126,7 @@ If 28 trousers of equal size can be made from 63 m of cloth, what length of clot
 Calculate the mean of the first five prime numbers.
 
 **Q.14**
-If 2x-1=x+2, then what is the value of x?
+If (2x-1)/3=(x+2)/2, then what is the value of x?
 
 **Q.15**
 Calculate median and mode for the following data:
