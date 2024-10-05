@@ -409,35 +409,6 @@ Thus, z = 20 .
 
 Everything is consistent and follows from the Exterior Angle Theorem and basic properties of angles in triangles.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* **i) Angle QPR = 70°**, so angle PQR = 90° - 70° = 20° (since it's a right-angled triangle).
-* **ii) Angle QPR = 20°**, so angle PRQ = 180° - 70° - 20° = 90° (sum of angles in a triangle is 180°).
-* **iii) Angle PRQ = 90°**, so triangle PQR is a right-angled triangle. Therefore, x = PR = PQ = y (since it's an isosceles right-angled triangle).
-
-Therefore, the values are:
-* **y = x**
-* **x = PR = PQ**
-* **z = 90°**
-
 ### Q.20
 **Question:** A square and an equilateral triangle have a side in common. If the side of the triangle is \(\frac{4}{3}\) cm long, find the perimeter of the adjacent figure.
 **Solution:**
