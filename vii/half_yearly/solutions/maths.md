@@ -42,7 +42,7 @@ Therefore, the solution of the equation is **7**.
 **Solution:**
 * First, convert both measurements to the same unit. Since 1 km is equal to 1000 m, 3 km is equal to 3000 m.
 * Now, write the fraction: 3000\300
-* Simplify the fraction by dividing both the numerator and denominator by their greatest common divisor, which is 300: \(\frac{3000 \div 300}{300 \div 300} = \frac{10}{1}\)
+* Simplify the fraction by dividing both the numerator and denominator by their greatest common divisor, which is 300: (3000\300)\(300\300) = (10\1)
 
 Therefore, the fraction of 3 km to 300 m is **10\1** or simply **10**.
 
@@ -55,7 +55,7 @@ Therefore, the fraction of 3 km to 300 m is **10\1** or simply **10**.
   * \(-1+(-10)=-11\)
   * \(-11+7=-4\)
 
-Therefore, \(-5+9+(-5)+(-10)+(7)\) is equal to **-4**.
+Therefore, \(-5+9+(-5)+(-10)+(7)\) is equal to **-10**.
 ## Solutions to the Math Exam Questions (Section B)
 
 ### Q.7
@@ -71,9 +71,9 @@ Therefore, the measure of angle CPQ is **90 degrees**.
 **Question:** Mean of 11, 10, 12, 12, 9, 10, 14, 12, 9 is
 **Solution:**
 * To find the mean, add all the numbers and divide by the total number of numbers.
-* Sum of the numbers: 11 + 10 + 12 + 12 + 9 + 10 + 14 + 12 + 9 = 109
+* Sum of the numbers: 11 + 10 + 12 + 12 + 9 + 10 + 14 + 12 + 9 = 99
 * Number of numbers: 9
-* Mean: 109 / 9 = 12.11
+* Mean: 99 / 9 = 11
 
 Therefore, the mean of the given numbers is **12.11**.
 
@@ -83,26 +83,76 @@ Therefore, the mean of the given numbers is **12.11**.
 * An equation is a mathematical statement that shows that two expressions are equal.
 * When the expressions on the left and right of an equation are interchanged, the equation remains true.
 
+An **equation** is a statement that asserts the equality of two expressions. For instance, consider the equation:
+3 + 4 = 7
+
+If we interchange the expressions on the left and right sides of the equation, we get:
+7 = 3 + 4
+
+Both forms of the equation are true because they represent the same relationship. The equality holds regardless of the order of the expressions.
+
+Here's another example:
+2x + 5 = 11
+
+If we solve for \(x\), we get:
+2x = 11 - 5
+2x = 6
+x = 3
+
+Now, if we interchange the left and right sides of the original equation, we get:
+11 = 2x + 5
+
+This is still true when \(x = 3\):
+11 = 2(3) + 5
+11 = 6 + 5
+11 = 11
+
+So, the equation remains valid even when the expressions on the left and right are swapped.
+
 Therefore, the answer is **Equation**.
 
 ### Q.10
 **Question:** Number of acute angles in the following figure is
 **Solution:**
 * An acute angle is an angle that measures less than 90 degrees.
-* From the figure (assuming it's a simple polygon), all angles appear to be less than 90 degrees.
-* Count the angles: 1, 2, 3, 4
+* From the figure  all angles appear to be less than 90 degrees.
+* Count the angles: 1, 2, 3
 
-Therefore, the number of acute angles is **4**.
+Therefore, the number of acute angles is **3**.
 
 ### Q.11
-**Question:** Find the value of x in the adjacent figure and state the property that is used to find the value.
-**Solution:**
-* The sum of the angles in a triangle is 180 degrees.
-* So, x + 125 + 25 = 180
-* Combining like terms, x + 150 = 180
-* Subtracting 150 from both sides, x = 30
 
-Therefore, the value of x is **30 degrees**, and the property used is the **Angle Sum Property of a Triangle**.
+![Figure 11](./maths11.png)
+
+### Given Figure
+In the given image, we have a right triangle with:
+- One of the angles labeled as \(125^\circ\) (an exterior angle)
+- Another angle as \(x\)
+- A right angle (\(90^\circ\)) inside the triangle.
+
+### Step 1: Use the Exterior Angle Property
+The **exterior angle property** of a triangle states that the exterior angle is equal to the sum of the two non-adjacent interior angles. In this case, the exterior angle is \(125^\circ\) and the two non-adjacent interior angles are \(x\) and \(90^\circ\).
+
+Thus, using the exterior angle property:
+
+\[
+125^\circ = x + 90^\circ
+\]
+
+### Step 2: Solve for \(x\)
+
+\[
+x = 125^\circ - 90^\circ
+\]
+\[
+x = 35^\circ
+\]
+
+### Step 3: State the Property Used
+The property used is the **exterior angle property** of a triangle, which states that the exterior angle is equal to the sum of the two non-adjacent interior angles.
+
+### Final Answer
+The value of \(x = 35^\circ\), and the property used is the **exterior angle property**.
 
 ### Q.12
 **Question:** If 28 trousers of equal size can be made from 63 m of cloth, what length of cloth is required for one trouser?
