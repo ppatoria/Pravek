@@ -122,7 +122,7 @@ Therefore, the number of acute angles is **3**.
 
 ### Q.11
 
-![Figure 11](./maths11.png)
+![Figure 11](../maths11.png)
 
 In the given image, we have a right triangle with one of the angles labeled as 125∘  (an exterior angle**, another angle as x, and a right angle 90∘ inside the triangle.
 
@@ -153,7 +153,7 @@ The angle formed outside the triangle, adjacent to the vertex of the triangle, i
 
 For any triangle, the exterior angle is equal to the sum of the two **non-adjacent interior angles** (the angles that are not adjacent to the exterior angle).
 
-![Exterior Angle](./exterior_angle.png)
+![Exterior Angle](./exterior-angle.png)
 
 ```
 We can verify the exterior angle theorem with the known properties of a triangle. Consider a Δ ABC.
