@@ -402,7 +402,9 @@ z = 180 - x = 180 - 160 = 20
 
 Thus, z = 20 .
 
-### Final Values:
+---
+
+**Final Values:**
 -  y = 20
 -  x = 160
 -  z = 20
@@ -410,14 +412,45 @@ Thus, z = 20 .
 Everything is consistent and follows from the Exterior Angle Theorem and basic properties of angles in triangles.
 
 ### Q.20
-**Question:** A square and an equilateral triangle have a side in common. If the side of the triangle is \(\frac{4}{3}\) cm long, find the perimeter of the adjacent figure.
+**Question:** A square and an equilateral triangle have a side in common. If the side of the triangle is 4\3 cm long, find the perimeter of the adjacent figure.
 **Solution:**
-* Since the side of the triangle is \(\frac{4}{3}\) cm, the side of the square is also \(\frac{4}{3}\) cm.
-* Perimeter of the square: 4 * \(\frac{4}{3}\) = \(\frac{16}{3}\) cm
-* Perimeter of the equilateral triangle: 3 * \(\frac{4}{3}\) = 4 cm
-* Total perimeter: \(\frac{16}{3}\) + 4 = \(\frac{28}{3}\) cm
 
-Therefore, the perimeter of the adjacent figure is **\(\frac{28}{3}\) cm**.
+
+The perimeter of a geometric shape, such as a triangle or a square, is the total length of all its sides.
+
+### For a Triangle:
+The perimeter is the sum of the lengths of its three sides. If a triangle has sides of lengths a, b, and c, then the perimeter P is given by:
+ P = a + b + c 
+
+### For a Square:
+The perimeter is the sum of the lengths of its four equal sides. If each side of the square has length s, then the perimeter P is given by:
+ P = 4 x sides
+
+In simple terms, the perimeter is the distance you would travel if you walked all the way around the shape once.
+
+
+### Given:
+- The side of the equilateral triangle is 4/3 cm.
+
+### Solution:
+1. **Identify the sides:**
+   - Since the triangle is equilateral, all three sides are 4/3 cm.
+   - The square shares one side with the triangle, so each side of the square is also 4/3 cm.
+
+2. **Calculate the perimeter:**
+   - The perimeter of the equilateral triangle is:
+     3 x 4/3 = 4 cm
+   - The perimeter of the square is:
+     4 x 4/3 = 16/3 cm
+
+3. **Combine the perimeters:**
+   - Since one side is shared, we need to subtract this common side once from the total perimeter:
+     Total Perimeter = 4 cm + 16/3 cm - 4/3 cm
+     Total Perimeter = 4 + 12/3
+     Total Perimeter = 4 + 4
+     Total Perimeter = 8 cm
+
+So, the perimeter of the adjacent figure is 8 cm.
 
 ### Q.21
 **Question:** In the given adjacent figure, EV, FK, and GS are the medians of the triangle EFG. Find the value of:
@@ -425,14 +458,45 @@ Therefore, the perimeter of the adjacent figure is **\(\frac{28}{3}\) cm**.
 * ii) KG
 * iii) FV
 **Solution:**
-* **i) FS:** Since GS is the median, FS = SG = \(\frac{1}{2}\)FG = \(\frac{1}{2}\) * 10 = 5 cm
-* **ii) KG:** Since FK is the median, KG = GK = \(\frac{1}{2}\)FG = 5 cm
-* **iii) FV:** Since EV is the median, FV = VE = \(\frac{1}{2}\)FE = \(\frac{1}{2}\) * 7 = 3.5 cm
 
-Therefore, the values are:
-* **FS = 5 cm**
-* **KG = 5 cm**
-* **FV = 3.5 cm**
+**Understanding the Medians**
+
+Before we calculate the values, let's clarify what a median in a triangle is:
+
+* A median of a triangle is a line segment that connects a vertex to the midpoint of the opposite side.
+* In this case, EV, FK, and GS are medians, meaning they divide the opposite sides into two equal halves.
+
+**Analyzing the Given Information**
+
+From the figure, we can infer the following:
+* **EV** is the median from vertex E to side FG, dividing FG into two equal parts.
+* **FK** is the median from vertex F to side EG, dividing EG into two equal parts.
+* **GS** is the median from vertex G to side EF, dividing EF into two equal parts.
+
+**Given lengths:**
+* FG = 10 cm
+* EG = 12 cm
+* EF = 7 cm
+
+**Calculations**
+
+* **i) FS:**
+  * Since GS is a median, it divides EF into two equal parts.
+  * FS = \(\frac{1}{2}\)EF = \(\frac{1}{2}\) * 7 cm = **3.5 cm**
+
+* **ii) KG:**
+  * Since FK is a median, it divides EG into two equal parts.
+  * KG = \(\frac{1}{2}\)EG = \(\frac{1}{2}\) * 12 cm = **6 cm**
+
+* **iii) FV:**
+  * Since EV is a median, it divides FG into two equal parts.
+  * FV = \(\frac{1}{2}\)FG = \(\frac{1}{2}\) * 10 cm = **5 cm**
+
+**Therefore, the values are:**
+
+* FS = 3.5 cm
+* KG = 6 cm
+* FV = 5 cm
 
 ### Q.22
 **Question:** A shopkeeper earns a profit of ₹1 by selling one pen and incurs a loss of 40 paise per pencil while selling pencils of her old stock. In a particular month, she incurs a loss of ₹5. In this period, she sold 45 pens. How many pencils did she sell in this period?
