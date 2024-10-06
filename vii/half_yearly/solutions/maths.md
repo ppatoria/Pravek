@@ -975,30 +975,100 @@ To solve this problem, we can use the Pythagorean theorem, which relates the len
 Therefore, Raju's age is **13 years** and the number is **40**.
 
 ### Q.31
-**Question:** There are four containers that are arranged in the ascending order of their heights. If the height of the smallest container given in the below figure is expressed as x = 10.5 cm, find the height of the largest container (x).
+**Question:** There are four containers that are arranged in the ascending order of their heights. If the height of the smallest container given in the below figure is expressed as 7/25 x = 10.5 cm, find the height of the largest container (x).
+![Figure 31](./maths31.png)
 **Solution:**
-* **Note:** The figure is not provided, so I'll assume the containers' heights increase in a linear fashion.
-* If the smallest container is x = 10.5 cm, and there are four containers, we can assume a common difference (d) between their heights.
-* The height of the largest container will be x + 3d.
-* Since we don't have the exact heights of the other containers, we cannot determine the value of d and thus cannot find the height of the largest container.
 
-**More information is needed to solve this problem.**
+To find the height of the largest container, we start with the given relationship:
+
+    7/25 x = 10.5 cm
+
+We need to solve for x :
+
+Multiply both sides by 25 to isolate x:
+
+    7x=10.5×25
+
+Simplify the right-hand side:
+
+    7x=262.5
+
+Divide both sides by 7:
+
+    x=262.57
+
+Perform the division:
+
+    x=37.5
+
+So, the height of the largest container x is 37.5 cm.
 
 ### Q.32
 **Question:** Find the value of x in the adjacent figure.
+![Figure 32](./maths32.png)
 **Solution:**
-* **Note:** The figure is not provided, so I cannot solve this problem without the specific details of the figure.
 
-**Please provide the figure or more information about the triangle.**
+**Identifying Angles**
+
+* Let's denote the angle adjacent to 3x as angle 1.
+* Let's denote the angle adjacent to (2x + 10) as angle 2.
+
+**Observations:**
+
+* Lines TZ and PV are parallel (indicated by the arrows).
+* JK is a transversal intersecting these parallel lines.
+
+**Properties of Parallel Lines and Transversals**
+
+* When a transversal intersects two parallel lines, the alternate interior angles are congruent.
+
+**Applying the Property**
+
+* Angle 1 and (2x + 10) are alternate interior angles.
+* Therefore, angle 1 = (2x + 10)
+
+**Solving for x**
+
+* We know that angle 1 and 3x are supplementary (they add up to 180 degrees) since they form a straight line.
+* So, angle 1 + 3x = 180
+* Substitute (2x + 10) for angle 1: (2x + 10) + 3x = 180
+* Combine like terms: 5x + 10 = 180
+* Subtract 10 from both sides: 5x = 170
+* Divide both sides by 5: x = 34
+
+**Therefore, the value of x is 34.**
+
 
 ### Q.33
 **Question:** A tree is broken at a height of 5 m from the ground, and its top touches the ground at a distance of 12 m from the base of the tree. Find the original height of the tree.
 **Solution:**
-* We have a right triangle where the broken part of the tree is the hypotenuse, the distance from the base to the point where the top touches the ground is the base, and the height of the broken part is the perpendicular.
-* Using the Pythagorean theorem: 5² + 12² = c²
-* Simplify: 25 + 144 = c²
-* c² = 169
-* c = √169 = 13 meters
-* The original height of the tree was 5 meters (broken part) + 13 meters (broken part) = 18 meters
+![Figure 33](./maths39.png)
 
-Therefore, the original height of the tree was **18 meters**.
+**In the diagram:**
+
+* **AB:** Original height of the tree
+* **BC:** Broken part of the tree (5 m)
+* **AC:** Distance from the base to the point where the top touches the ground (12 m)
+
+**Using the Pythagorean Theorem**
+
+Since triangle ABC is a right-angled triangle (right angle at B), we can use the Pythagorean theorem:
+
+* a² + b² = c²
+
+where:
+* a = BC = 5 m (height of the broken part)
+* b = AC = 12 m (distance from the base to the top)
+* c = AB = original height of the tree
+
+**Substituting values:**
+
+* 5² + 12² = c²
+* 25 + 144 = c²
+* 169 = c²
+
+**Finding the original height:**
+
+* c = √169 = 13 m
+
+**Therefore, the original height of the tree was 5 m (broken part) + 13 m (remaining part) = 18 meters.**
