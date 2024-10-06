@@ -729,10 +729,11 @@ Angle 2 = 23 degrees
 ### Q.27
 
 **Question:** Simplify and reduce to standard form:
-[2\3 * 3\5  1\2]
+I)  −15/35∗((27/−63)/(81/14))
+II) ((-2/-72 ) + (4/9)) + (-6/14)
 #### Solution:
 
-**Expression:**
+##### Expression:
 −15/35∗((27/−63)/(81/14))
 
 **Simplify 27/−63:**
@@ -765,36 +766,95 @@ It's already in its simplest form.
 
 **Perform the multiplication:**
 
-    −3/7∗−2/27=(−3∗−2)/(7∗27)=6/189
+    −3/7∗−2/27
+    =(−3∗−2)/(7∗27)
+    =6/189
 
 **Simplify 6/189:**
 
-    6÷3/189÷3=2/63
+    6÷3/189÷3
+    =2/63
 
 The simplified form is 2/63.
+
+##### Expression:
+
+    ((-2/-72 ) + (4/9)) + (-6/14)
+
+**Simplify −2/−72:**
+
+    −2÷−2/−72÷−2
+    =1/36
+
+**Add the fractions inside the parentheses:**
+
+    (1/36)+(4/9)
+
+**Find a common denominator (which is 36):**
+
+    (4∗4)/(9∗4)
+    =16/361/36+16/36
+    =(1+16)/36
+    =17/36
+
+**Now, add the remaining fraction:**
+
+    (17/36)+(−6/14)
+
+**Find a common denominator (which is 252):**
+
+    17∗7/36∗7
+    =119/252−6∗18/14∗18
+    =−108/252119/252+(−108/252)
+    =(119−108)/252
+    =11/252
+
+The simplified form is 11/252.
 
 ### Q.28
 **Question:** The data given below shows the production of motor bikes in a factory for some months of two consecutive years.
 
-| Months | 2023 | 2024 |
-|---|---|---|
+| Months   | 2023 | 2024 |
+|----------|------|------|
 | February | 2700 | 2800 |
-| May | 3200 | 4500 |
-| August | 6000 | 4800 |
-| October | 5000 | 4800 |
+| May      | 3200 | 4500 |
+| August   | 6000 | 4800 |
+| October  | 5000 | 4800 |
 | December | 4200 | 5200 |
 
 * i) Draw a double bar graph using appropriate scale to depict the above information.
 * ii) In which year was the total output the maximum?
 **Solution:**
-* **i) Double Bar Graph:**
-  [Image of a double bar graph showing the production of motor bikes for 2023 and 2024]
-  * **Note:** The scale for the y-axis should be appropriate to accommodate the maximum production value (6000).
-* **ii) Total Output:**
-  * **2023:** 2700 + 3200 + 6000 + 5000 + 4200 = 21,100 bikes
-  * **2024:** 2800 + 4500 + 4800 + 4800 + 5200 = 22,100 bikes
+### i) Double Bar Graph
 
-Therefore, the total output was maximum in **2024**.
+Here is the double bar graph depicting the production of motor bikes in 2023 and 2024:
+
+![Production of Motor Bikes](./motor_bike_production.png)
+
+### ii) Year with Maximum Total Output
+
+To find out in which year the total output was the maximum, let's calculate the total production for each year:
+
+**Total production for 2023:**
+- February : 2700
+- May      : 3200
+- August   : 6000
+- October  : 5000
+- December : 4200
+
+**Total for 2023 = 2700 + 3200 + 6000 + 5000 + 4200 = 21100**
+
+**Total production for 2024:**
+- February : 2800
+- May      : 4500
+- August   : 4800
+- October  : 4800
+- December : 5200
+
+**Total for 2024 = 2800 + 4500 + 4800 + 4800 + 5200 = 22100**
+
+### Conclusion
+The total output was maximum in **2024**, with a total production of **22100 bikes**, compared to **21100 bikes** in 2023.
 
 ## Solutions to the Math Exam Questions (Section D)
 
