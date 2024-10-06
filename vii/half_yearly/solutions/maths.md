@@ -892,18 +892,16 @@ Therefore, the length of the ladder is **10 meters** and the new height it reach
 The Pythagorean theorem is a fundamental principle in geometry that relates to right triangles.
 It states that in a right triangle, the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides.
 
-### The Formula
+##### The Formula
 The theorem is expressed mathematically as:
 
-\[ 
-c^2 = a^2 + b^2 
-\]
+c^2 = a^2 + b^2
 
 Where:
-- \( c \) is the length of the hypotenuse.
-- \( a \) and \( b \) are the lengths of the other two sides.
+- c is the length of the hypotenuse.
+- a  and b are the lengths of the other two sides.
 
-### Diagram
+##### Diagram
 Here’s a simple diagram illustrating the Pythagorean theorem:
 
 ```
@@ -915,214 +913,30 @@ Here’s a simple diagram illustrating the Pythagorean theorem:
              a
 ```
 
-### Explanation
-1. **Right Triangle**: The triangle shown has a right angle (90 degrees) between sides \( a \) and \( b \).
-2. **Hypotenuse**: The side \( c \) is the hypotenuse, which is the longest side of the triangle.
-3. **Sides \( a \) and \( b \)**: The other two sides of the triangle are \( a \) and \( b \).
+##### Explanation
+1. **Right Triangle**: The triangle shown has a right angle (90 degrees) between sides a and b .
+2. **Hypotenuse**: The side c is the hypotenuse, which is the longest side of the triangle.
+3. **Sides a and b **: The other two sides of the triangle are a and b .
 
-### Application
-The Pythagorean theorem is used to calculate the length of one side of a right triangle when the lengths of the other two sides are known. 
-
-#### Example
-If we have a right triangle where:
-- \( a = 3 \) m
-- \( b = 4 \) m
-
-We can find the length of the hypotenuse \( c \):
-
-\[
-c^2 = a^2 + b^2
-\]
-
-Substituting the values:
-
-\[
-c^2 = 3^2 + 4^2 \\
-c^2 = 9 + 16 \\
-c^2 = 25
-\]
-
-Taking the square root:
-
-\[
-c = \sqrt{25} = 5 \text{ m}
-\]
-
-### Conclusion
-The Pythagorean theorem provides a reliable way to find the lengths of sides in right triangles and is widely used in various fields, including construction, navigation, and physics.
+##### Application
+The Pythagorean theorem is used to calculate the length of one side of a right triangle when the lengths of the other two sides are known.
 
 
 
-
-
-
-
-
-
-
-
-
+#### Solution:
 
 To solve this problem, we can use the Pythagorean theorem, which relates the lengths of the sides of a right triangle.
+        |
+        |\
+        | \
+        |  \
+   8 m  |   \
+        |    \
+        |     \
+        |______\
+         6 m
 
-i) Find the length of the ladder
-In the first scenario, we have:
-
-The distance from the wall to the foot of the ladder (base) = 6 m
-The height at which the top of the ladder touches the wall (height) = 8 m
-We can find the length of the ladder (hypotenuse) using the Pythagorean theorem:
-
-length of the ladder
-2
-=
-(
-base
-)
-2
-+
-(
-height
-)
-2
-length of the ladder 
-2
- =(base) 
-2
- +(height) 
-2
- 
-Substituting the values:
-
-length of the ladder
-2
-=
-(
-6
-)
-2
-+
-(
-8
-)
-2
-length of the ladder 
-2
- =(6) 
-2
- +(8) 
-2
- 
-Calculating:
-
-length of the ladder
-2
-=
-36
-+
-64
-=
-100
-length of the ladder 
-2
- =36+64=100
-Now take the square root to find the length of the ladder:
-
-length of the ladder
-=
-100
-=
-10
- m
-length of the ladder= 
-100
-​
- =10 m
-ii) Find the height when the ladder's foot is 8 m away from the wall
-Now, if the foot of the ladder is moved 8 m away from the wall, we still have the same length of the ladder, which is 10 m. We can find the new height (h) reached by the top of the ladder:
-
-Using the Pythagorean theorem again:
-
-length of the ladder
-2
-=
-(
-base
-)
-2
-+
-(
-height
-)
-2
-length of the ladder 
-2
- =(base) 
-2
- +(height) 
-2
- 
-Substituting the known values:
-
-1
-0
-2
-=
-8
-2
-+
-ℎ
-2
-10 
-2
- =8 
-2
- +h 
-2
- 
-Calculating:
-
-100
-=
-64
-+
-ℎ
-2
-100=64+h 
-2
- 
-Now, isolate 
-ℎ
-2
-h 
-2
- :
-
-ℎ
-2
-=
-100
-−
-64
-=
-36
-h 
-2
- =100−64=36
-Now take the square root to find the height:
-
-ℎ
-=
-36
-=
-6
- m
-h= 
-36
-​
- =6 m
-Summary of Results:
-i) The length of the ladder is 10 m.
-ii) When the ladder is shifted to be 8 m away from the wall, it reaches a height of 6 m.
+![Find the length of the ladder](./maths29i.png)
 
 ### Q.30
 **Question:**
