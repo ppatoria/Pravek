@@ -501,20 +501,125 @@ From the figure, we can infer the following:
 ### Q.22
 **Question:** A shopkeeper earns a profit of ₹1 by selling one pen and incurs a loss of 40 paise per pencil while selling pencils of her old stock. In a particular month, she incurs a loss of ₹5. In this period, she sold 45 pens. How many pencils did she sell in this period?
 **Solution:**
-* Profit from pens: 45 pens * ₹1/pen = ₹45
-* Total loss: ₹5
-* Loss from pencils: ₹45 - ₹5 = ₹40
-* Loss per pencil: 40 paise = ₹0.40
-* Number of pencils sold: ₹40 / ₹0.40/pencil = 100 pencils
+#### Step-by-step solution:
 
-Therefore, the shopkeeper sold **100 pencils**.
+1. **Convert all values to paise**:
+   - ₹1 = 100 paise
+   - 40 paise remains as is.
+   - ₹5 = 500 paise
+
+2. **Let's assume** the number of pencils sold is denoted by  x .
+
+3. **Profit from selling pens**:
+   - The shopkeeper earns 100 paise (₹1) for each pen.
+   - She sold 45 pens.
+   - So, total profit from pens =  45 * 100 = 4500  paise.
+
+4. **Loss from selling pencils**:
+   - The shopkeeper loses 40 paise for each pencil sold.
+   - If she sold x pencils, the total loss from pencils = 40 * x  paise.
+
+5. **Total loss in the month**:
+   - The shopkeeper has a total loss of ₹5, which is 500 paise.
+   - We know the profit from pens and the loss from pencils together result in a total loss of 500 paise.
+   - So, the equation becomes:
+     4500 paise (from pens)- 40x paise (from pencils)= -500 paise (total loss)
+
+6. **Solve the equation**:
+   4500 - 40x = -500
+   4500 + 500 = 40x
+   5000 = 40x
+   x = 5000/40 = 125
+
+#### Final Answer:
+The shopkeeper sold 125 pencils during that period.
 
 ### Q.23
 **Question:** A car covers a distance of 89.1 km in 2.2 hours. What is the average distance covered by it in 1 hour?
 **Solution:**
-* Average speed (distance/time) = 89.1 km / 2.2 hours = 40.5 km/hour
 
-Therefore, the average distance covered by the car in 1 hour is **40.5 km**.
+We first convert everything into the smallest units. The question involves kilometers and hours, so we'll convert:
+
+```
+89.1 km = 89.1 * 1000 = 89,100 meters
+2.2 hours = 2.2 * 60 = 132 minutes
+```
+
+We need to find the distance covered in 1 hour = 60 minutes
+
+**Step-by-Step Explanation:**
+
+We will set up the relation:
+
+```
+89,100 meters / 132 minutes = x meters / 60 minutes
+```
+
+Now, use cross multiplication to solve for x (the distance covered in 1 hour).
+
+```
+Cross Multiplication: 89,100 meters * 60 minutes = x meters * 132 minutes
+```
+
+Now, perform the multiplication:
+
+```
+89,100 * 60 = 5,346,000
+```
+
+This gives:
+
+```
+5,346,000 = x * 132
+```
+
+Now, divide both sides by 132 to solve for x:
+
+```
+x = 5,346,000 / 132
+```
+
+When you perform this division:
+
+```
+x = 40,500 meters
+```
+
+Now, convert back to kilometers:
+
+```
+40,500 meters = 40.5 km
+```
+
+Thus, the car covers 40.5 km in 1 hour.
+
+**Visual Representation (in text format):**
+
+Write the known distance and time as a ratio:
+
+```
+89,100 meters / 132 minutes = x meters / 60 minutes
+```
+
+Cross multiply the terms:
+
+```
+89,100 * 60 = x * 132
+```
+
+Solve for x:
+
+```
+x = 5,346,000 / 132 = 40,500 meters
+```
+
+Convert the result back to kilometers:
+
+```
+40,500 meters = 40.5 km
+```
+
+This approach helps visualize how the relationship between different units works when solving distance, speed, or time problems.
 
 ### Q.24
 **Question:** "5 added to three-fifth of a number gives \(\frac{14}{3}\)".
