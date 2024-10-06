@@ -1042,7 +1042,7 @@ So, the height of the largest container x is 37.5 cm.
 ### Q.33
 **Question:** A tree is broken at a height of 5 m from the ground, and its top touches the ground at a distance of 12 m from the base of the tree. Find the original height of the tree.
 **Solution:**
-![Figure 33](./maths39.png)
+![Figure 33](./maths33.png)
 
 **In the diagram:**
 
