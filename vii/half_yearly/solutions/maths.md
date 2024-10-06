@@ -924,6 +924,7 @@ The Pythagorean theorem is used to calculate the length of one side of a right t
 
 
 #### Solution:
+##### Find the length of the ladder
 
 To solve this problem, we can use the Pythagorean theorem, which relates the lengths of the sides of a right triangle.
 ```
@@ -938,6 +939,21 @@ To solve this problem, we can use the Pythagorean theorem, which relates the len
 ```
 
 ![Find the length of the ladder](./maths29i.png)
+##### Find the height when the ladder's foot is 8 m away from the wall
+
+```
+        |
+        |\
+        | \
+        |  \
+        |   \
+   ? m  |    \  
+        |     \
+        |______\
+          8 m
+
+```
+![Find the height when the ladder's foot is 8 m away from the wall](./maths29ii.png)
 
 ### Q.30
 **Question:**
