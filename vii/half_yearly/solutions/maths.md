@@ -622,17 +622,61 @@ Convert the result back to kilometers:
 This approach helps visualize how the relationship between different units works when solving distance, speed, or time problems.
 
 ### Q.24
-**Question:** "5 added to three-fifth of a number gives \(\frac{14}{3}\)".
+**Question:** "5 added to three-fifth of a number gives 14\3".
 * i) Write the equation for the above statement.
 * ii) Solve the equation and find the number.
 **Solution:**
-* **i) Equation:** \(\frac{3}{5}x + 5 = \frac{14}{3}\)
-* **ii) Solve the equation:**
-  * Multiply both sides by 15 (LCM of 3 and 5): 9x + 75 = 70
-  * Subtract 75 from both sides: 9x = -5
-  * Divide by 9: x = \(\frac{-5}{9}\)
+**i) Writing the equation:**
 
-Therefore, the number is **\(\frac{-5}{9}\)**.
+"5 added to three-fifth of a number gives 14/3" means we need to first express "three-fifth of a number."
+
+Let the unknown number be represented by x.
+
+Three-fifth of the number is written as: (3/5) * x.
+
+Now, add 5 to this, so the expression becomes: (3/5) * x + 5.
+
+This is equal to 14/3.
+
+So, the equation is:
+
+    (3/5) * x + 5 = 14/3.
+
+**ii) Solving the equation:**
+
+Start with the equation:
+
+    (3/5) * x + 5 = 14/3.
+
+Subtract 5 from both sides to isolate the fraction with x:
+
+    (3/5) * x = 14/3 - 5.
+
+Convert 5 into a fraction with a denominator of 3 to make subtraction easier:
+
+5 = 15/3, so now the equation becomes:
+
+    (3/5) * x = 14/3 - 15/3.
+
+Perform the subtraction on the right-hand side:
+
+    14/3 - 15/3 = -1/3.
+
+So, now we have:
+
+    (3/5) * x = -1/3.
+
+To solve for x, multiply both sides by the reciprocal of (3/5), which is (5/3):
+
+    x = (-1/3) * (5/3).
+
+Multiply the fractions:
+
+    x = -5/9.
+
+**Final Answer:**
+
+The number is -5/9.
 
 ## Solutions to the Math Exam Questions (Section D)
 
