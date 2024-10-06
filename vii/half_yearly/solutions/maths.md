@@ -685,16 +685,30 @@ The number is -5/9.
 * i) Gurpreet attempts all questions but only 9 of her answers are correct. What is her total score?
 * ii) One of her friends attempted all questions and got only 5 answers correct. What will be her score?
 **Solution:**
-* **i) Gurpreet:**
-  * Correct answers: 9
-  * Incorrect answers: 15 - 9 = 6
-  * Total score: 9 * 4 + 6 * (-2) = 36 - 12 = 24 marks
-* **ii) Friend:**
-  * Correct answers: 5
-  * Incorrect answers: 15 - 5 = 10
-  * Total score: 5 * 4 + 10 * (-2) = 20 - 20 = 0 marks
+* i) Gurpreet's total score:
+  Gurpreet attempted all 15 questions, and she got 9 correct answers.
+  For each correct answer, she gets 4 marks, and for each incorrect answer, she loses 2 marks.
+  * First, calculate the marks she gets for the correct answers:
+    For 9 correct answers, the marks are: 9 * 4 = 36 marks.
+  * Now, calculate the number of incorrect answers:
+    Gurpreet attempted 15 questions in total. So, the number of incorrect answers is: 15 - 9 = 6.
+  * Next, calculate the marks deducted for the incorrect answers:
+    For 6 incorrect answers, the marks deducted are: 6 * -2 = -12 marks.
+  * Finally, calculate her total score:
+    Total score = Marks from correct answers + Marks deducted from incorrect answers 36 + (-12) = 36 - 12 = 24.
+  So, Gurpreet's total score is 24.
 
-Therefore, Gurpreet's score is **24 marks** and her friend's score is **0 marks**.
+* ii) Her friend's total score:
+  Her friend attempted all 15 questions, and she got 5 correct answers.
+  * First, calculate the marks she gets for the correct answers:
+    For 5 correct answers, the marks are: 5 * 4 = 20 marks.
+  * Now, calculate the number of incorrect answers:
+    Her friend attempted 15 questions in total. So, the number of incorrect answers is: 15 - 5 = 10.
+  * Next, calculate the marks deducted for the incorrect answers:
+    For 10 incorrect answers, the marks deducted are: 10 * -2 = -20 marks.
+  * Finally, calculate her total score:
+    Total score = Marks from correct answers + Marks deducted from incorrect answers 20 + (-20) = 20 - 20 = 0.
+  So, her friend's total score is 0.
 
 ### Q.26
 **Question:** If RO is perpendicular to PT in the adjacent figure, find the measure of angle 1 and angle 2.
@@ -702,7 +716,10 @@ Therefore, Gurpreet's score is **24 marks** and her friend's score is **0 marks*
 * **Angle 1:** Since RO is perpendicular to PT, angle 1 = 90 degrees.
 * **Angle 2:** We need more information about the figure to determine angle 2. Please provide additional details or a diagram.
 
+So, her friend's total score is 0.
+
 ### Q.27
+
 **Question:** Simplify and reduce to standard form:
 [2\3 times 3\5 div 1\2]
 **Solution:**
