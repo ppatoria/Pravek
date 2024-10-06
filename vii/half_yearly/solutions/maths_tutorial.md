@@ -1,6 +1,9 @@
 
 ## 1. **Triangles and Angles**
 
+![Figure 1](./exterior_angle_1.png)
+![Figure 2](./exterior_angle.png)
+
 ### **Interior and Exterior Angles in Triangles**
 - **Interior Angles**: The sum of the interior angles in any triangle is always 180 degrees.
   - **Example**: In triangle QPR, with angles QRP = 90 degrees and QPR = 70 degrees, the third angle is calculated as:
@@ -16,6 +19,7 @@
 
 
 ## 2. **The Pythagorean Theorem**
+![Figure 3](./triangle.png)
 
 The Pythagorean theorem applies to right-angled triangles, stating that the square of the longest side (hypotenuse) is equal to the sum of the squares of the other two sides:
 - The formula is: \(c^2 = a^2 + b^2\), where \(c\) is the hypotenuse and \(a\) and \(b\) are the other two sides.
@@ -25,7 +29,7 @@ The Pythagorean theorem applies to right-angled triangles, stating that the squa
 
 
 ## 3. **Perimeter and Area of Geometric Shapes**
-
+![Figure 4](./square.png)
 - **Perimeter of Polygons**: The perimeter is the total length of all sides of a shape.
   - **Example**: For a square and an equilateral triangle sharing one side, where each side of the triangle is \( 4\3 \, cm\), the perimeter of the combined figure can be found by summing the sides, considering the shared side.
 
