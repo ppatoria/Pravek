@@ -712,25 +712,66 @@ The number is -5/9.
 
 ### Q.26
 **Question:** If RO is perpendicular to PT in the adjacent figure, find the measure of angle 1 and angle 2.
+![Figure 26](../maths26.png)
 **Solution:**
-* **Angle 1:** Since RO is perpendicular to PT, angle 1 = 90 degrees.
-* **Angle 2:** We need more information about the figure to determine angle 2. Please provide additional details or a diagram.
+Given that RO is perpendicular to PT, we know that the angles formed at point O are right angles.
 
-So, her friend's total score is 0.
+In the figure, we have:
+Angle ROP is 90 degrees.
+Angle 1 is given as 67 degrees.
+To find angle 2, we can use the fact that the sum of angles around a point is 360 degrees:
+Calculate angle 2: Angle 2 + Angle 1 = 90 degrees Angle 2 + 67 degrees = 90 degrees Angle 2 = 90 degrees - 67 degrees = 23 degrees
+
+Thus, we have:
+Angle 1 = 67 degrees
+Angle 2 = 23 degrees
 
 ### Q.27
 
 **Question:** Simplify and reduce to standard form:
-[2\3 times 3\5 div 1\2]
-**Solution:**
-* **Step 1:** Multiply the first two fractions:
-  [2\3 times 3\5 = 2 times 3\3 times 5 = 6\15]
-* **Step 2:** Divide by the third fraction (which is equivalent to multiplying by its reciprocal):
-  [6\15 div 1\2 = 6\15 times 2\1 = 12\15]
-* **Step 3:** Simplify the fraction:
-  [12\15 = 4\5]
+[2\3 * 3\5  1\2]
+#### Solution:
 
-Therefore, the simplified expression in standard form is **\(\frac{4}{5}\)**.
+**Expression:**
+−15/35∗((27/−63)/(81/14))
+
+**Simplify 27/−63:**
+
+    27÷9/−63÷9
+    =3/−7=−3/7
+
+**Simplify 81/14:**
+It's already in its simplest form.
+
+**Divide the fractions inside the parentheses:**
+
+    −3/7÷81/14
+    = −3/7∗14/81
+    = (−3∗14)/(7∗81)=−42/567
+
+**Simplify −42/567:**
+
+    −42÷21/567÷21
+    =−2/27
+
+**Multiply the remaining fractions:**
+
+    −15/35∗−2/27
+
+**Simplify −15/35:**
+
+    −15÷5/35÷5
+    =−3/7
+
+**Perform the multiplication:**
+
+    −3/7∗−2/27=(−3∗−2)/(7∗27)=6/189
+
+**Simplify 6/189:**
+
+    6÷3/189÷3=2/63
+
+The simplified form is 2/63.
 
 ### Q.28
 **Question:** The data given below shows the production of motor bikes in a factory for some months of two consecutive years.
